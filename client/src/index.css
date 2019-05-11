@@ -1,0 +1,70 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.navItem{
+  margin-left: 15px;
+  padding: 8px;
+  color: #fff;
+}
+.mycontainer{
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  align-items: center;
+  padding: 0 10px
+}
+.child{
+  list-style-type: none;
+  color: #fff;
+  margin: 10px;
+  cursor: pointer;
+}
+.formButton{
+  float: right ;
+  margin-right: 20px;
+}
+.clearfix{
+  clear: right;
+}
+.addForm{
+  margin-top: 20px;
+
+}
+.addForm h4{
+  text-align: center
+}
+.addFormInput{
+  margin: 0 auto 5px ;
+}
+.member span{
+  margin: 5px
+}
+.noMember{
+  text-align: center
+}
+
+.registerButton{
+  padding: 0px;
+  margin-left: 45px
+}
+.logoutButton{
+  padding: 0px;
+  /* margin-left: 15px */
+}
+.loginButton{
+  padding: 0px;
+  margin-left: 15px
+}
+.avatar{
+  margin-left: 50px;
+  color: #fff
+}
